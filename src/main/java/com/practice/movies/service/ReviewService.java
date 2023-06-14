@@ -1,4 +1,6 @@
-package com.practice.movies;
+package com.practice.movies.service;
+import com.practice.movies.model.Review;
+import com.practice.movies.repository.ReviewRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;

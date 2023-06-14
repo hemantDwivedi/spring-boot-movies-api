@@ -1,6 +1,8 @@
-package com.practice.movies;
+package com.practice.movies.controller;
 
 
+import com.practice.movies.model.Movie;
+import com.practice.movies.service.MovieService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,6 +1,7 @@
-package com.practice.movies;
+package com.practice.movies.service;
 
-import org.bson.types.ObjectId;
+import com.practice.movies.model.Movie;
+import com.practice.movies.repository.MovieRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

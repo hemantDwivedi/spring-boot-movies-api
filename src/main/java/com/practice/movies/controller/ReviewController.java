@@ -1,5 +1,8 @@
-package com.practice.movies;
+package com.practice.movies.controller;
 
+import com.practice.movies.repository.ReviewRepository;
+import com.practice.movies.service.ReviewService;
+import com.practice.movies.model.Review;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
